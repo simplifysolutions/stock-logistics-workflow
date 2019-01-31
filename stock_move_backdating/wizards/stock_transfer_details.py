@@ -32,6 +32,8 @@ class StockTransferDetails(models.TransientModel):
     @api.model
     def default_get(self, fields_list):
         res = super(StockTransferDetails, self).default_get(fields_list)
+        if not res:
+            return res
         now = fields.Datetime.now()
         res['date_backdating'] = now
         for item in res['item_ids']:
