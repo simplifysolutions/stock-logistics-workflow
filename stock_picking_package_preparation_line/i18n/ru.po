@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stock-logistics-workflow (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 01:44+0000\n"
-"PO-Revision-Date: 2016-11-22 12:24+0000\n"
+"POT-Creation-Date: 2017-05-05 02:58+0000\n"
+"PO-Revision-Date: 2017-05-11 14:11+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Russian (http://www.transifex.com/oca/OCA-stock-logistics-workflow-8-0/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -25,12 +25,12 @@ msgstr ""
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Создано"
 
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Создан"
 
 #. module: stock_picking_package_preparation_line
 #: field:res.company,default_picking_type_for_package_preparation_id:0
@@ -48,7 +48,7 @@ msgstr "Описание"
 #: view:stock.picking.package.preparation:stock_picking_package_preparation_line.sppp_line_stock_picking_package_preparation_form
 #: field:stock.picking.package.preparation,line_ids:0
 msgid "Details"
-msgstr ""
+msgstr "Данные"
 
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,display_name:0
@@ -58,7 +58,7 @@ msgstr ""
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: stock_picking_package_preparation_line
 #: help:stock.picking.package.preparation.line,product_uom_qty:0
@@ -83,12 +83,12 @@ msgstr ""
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Последний раз обновлено"
 
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,lot_id:0
@@ -120,7 +120,7 @@ msgstr ""
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Товар/Услуга"
 
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,product_uom:0
@@ -135,7 +135,7 @@ msgstr ""
 #. module: stock_picking_package_preparation_line
 #: field:stock.picking.package.preparation.line,sequence:0
 msgid "Sequence"
-msgstr ""
+msgstr "Последовательность"
 
 #. module: stock_picking_package_preparation_line
 #: model:ir.model,name:stock_picking_package_preparation_line.model_stock_move
