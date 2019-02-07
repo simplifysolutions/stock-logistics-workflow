@@ -39,7 +39,7 @@ class StockProductionLot(models.Model):
                            " in this case it"
                            " is same of manufacturer's"
                            " serial number",
-                      store=True, readonly=True)
+                      related="name", store=True, readonly=True)
 
     @api.multi
     @api.depends('quant_ids')
